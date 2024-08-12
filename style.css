@@ -1,0 +1,9 @@
+body {
+    display: flex;
+}
+
+.image{
+    height: 100vh;
+    display: flex;
+}
+
