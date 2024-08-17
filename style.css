@@ -2,8 +2,34 @@ body {
     display: flex;
 }
 
-.image{
+.image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+img {
     height: 100vh;
     display: flex;
 }
+
+.img-footer {
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    bottom: 5px;
+}
+
+a {
+    color: inherit;
+}
+
+/*Photo by 
+            <a href="https://unsplash.com/@debidiemski?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
+            Deborah Diem
+        </a> 
+        on 
+        <a href="https://unsplash.com/photos/a-large-ice-cave-with-water-coming-out-of-it-ds_NPvoAzro?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
+            Unsplash
+        </a> */
 
