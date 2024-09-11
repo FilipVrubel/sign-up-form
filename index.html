@@ -27,19 +27,45 @@
     </div>
     <div class="text">
         <div class="quote">
-            <p>
-                This is not real online service! You know you need something
-                like this in your life to help you realize your deepest dreams.
-            </p>
-            <p>Sign up <em>now</em> to get started.</p>
+            <div class="inside-quote">
+                <p>
+                    This is not a real online service! You know you need something
+                    like this in your life to help you realize your deepest dreams.
+                    Sign up <em>now</em> to get started.
+                </p>
+                <br />
+                <p>You <em>know</em> you want to.</p>
+            </div>
         </div>
         <div class="form">
-            <form>
+            Let's do this!
+            <form id="my-form"method="post">
+                <label for="first_name">FIRST NAME</label>
+                <input type="text" id="first_name">
 
+                <label for="last_name">LAST NAME</label>
+                <input type="text" id="last_name">
+
+                <label for="email">EMAIL</label>
+                <input type="email" id="email">
+
+                <label for="phone_number">PHONE NUMBER</label>
+                <input type="tel" id="phone_number">
+
+                <label for="password">PASSWORD</label>
+                <input type="password" id="password">
+                
+                <label for="password">CONFIRM PASSWORD</label>
+                <input type="password" id="password">
             </form>
         </div>
         <div class="sign-up">
+            <button form="my-form" type="submit">
+                Create Account
+            </button>
 
+            Already have an account?
+            Log in
         </div>
     </div>
 </body>
